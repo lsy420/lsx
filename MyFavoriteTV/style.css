@@ -1,0 +1,203 @@
+/* 整体样式设置 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  min-width: 1200px;
+}
+
+.top-view {
+  background-color: #e6f4ff;
+  padding: 32px 0;
+}
+
+.top-view-inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 200%;
+}
+
+.tip {
+  margin-top: 6px;
+  color: #626675;
+}
+
+.top-image-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-item {
+  flex-basis: 32%;
+  width: 0px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.main-content {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.main-content .item {
+  background-color: #fff;
+  border: solid 1px #e5e5e5;
+  box-shadow: 0 2px 3px -2px #d5d5d5;
+  padding: 32px 16px;
+}
+
+.main-content .intro {
+  display: flex;
+}
+.main-content .intro .statistic {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+.main-content .intro .statistic .statistic-item {
+  margin-left: 8px;
+}
+.main-content .intro .statistic .statistic-item:not(:last-child) {
+  border-right: 1px solid #eee;
+  padding-right: 8px;
+}
+.main-content .intro .statistic .statistic-item .name {
+  color: #519cea;
+  font-weight: 500;
+}
+.main-content .intro .statistic .statistic-item .num {
+  color: #888;
+}
+.main-content .intro .intro-text {
+  margin-right: 12px;
+}
+.main-content .intro .intro-text-item {
+  font-size: 14px;
+  line-height: 24px;
+  text-indent: 2em;
+}
+.main-content .intro .intro-image {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  width: 0px;
+}
+.main-content .intro .table {
+  margin-top: 24px;
+}
+.main-content .intro .table .row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 12px 0px;
+}
+.main-content .intro .table .row .row-item {
+  flex-basis: 50%;
+  display: flex;
+}
+.main-content .intro .table .row .name {
+  color: #333;
+  font-weight: bold;
+  flex-basis: 25%;
+}
+.main-content .intro .table .row .data {
+  color: #747474;
+}
+
+.main-content .base {
+  margin-top: 12px;
+}
+.main-content .base .title-wrapper {
+  border-left: 10px solid #003eb3;
+  margin: 0px -16px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+}
+.main-content .base .title-wrapper .title {
+  font-size: 150%;
+}
+.main-content .line {
+  flex-grow: 1;
+  background: #eee;
+  height: 1px;
+  margin-left: 12px;
+}
+.main-content .base .content-wrapper {
+  margin-top: 24px;
+  padding: 0px 10px;
+}
+.main-content .base .content-wrapper .row {
+  display: flex;
+  font-size: 6px;
+  padding: 12px 0px;
+  border-bottom: 1px dotted #ccc;
+}
+.main-content .base .content-wrapper .row .col {
+  flex-basis: 50%;
+  display: flex;
+}
+.main-content .base .content-wrapper .row .col .name {
+  color: #999;
+  font-weight: bold;
+  width: 80px;
+  flex-basis: 15%;
+}
+/* 演员表 */
+.main-content .actor-intro {
+  margin-top: 12px;
+}
+.main-content .actor-intro .title-wrapper {
+  border-left: 10px solid #003eb3;
+  margin: 0px -16px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+}
+.main-content .actor-intro .title-wrapper .title {
+  font-size: 150%;
+}
+.main-content .line {
+  flex-grow: 1;
+  background: #eee;
+  height: 1px;
+  margin-left: 12px;
+}
+.main-content .actor-intro .actor-list {
+  margin-top: 24px;
+  padding: 0px 10px;
+}
+.main-content .actor-intro .actor-list .actor-item {
+  display: flex;
+  align-items: start;
+}
+.main-content .actor-intro .actor-list .actor-item:not(:last-child) {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-img {
+  width: 135px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc {
+  margin-left: 16px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc .role-name {
+  color: #003eb3;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc .actor-name {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc .actor-name .label {
+  color: #999;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc .role-detail {
+  font-size: 13px;
+  line-height: 1.3;
+}
